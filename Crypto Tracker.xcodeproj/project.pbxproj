@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		BCA6FDE5326F0BA6BF2B4A96 /* Pods_Crypto_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F05A40783C33A45740DF6C65 /* Pods_Crypto_Tracker.framework */; };
 		DE0146AA282CDE55001DCF1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0146A9282CDE55001DCF1D /* AppDelegate.swift */; };
-		DE0146AE282CDE55001DCF1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0146AD282CDE55001DCF1D /* ViewController.swift */; };
 		DE0146B3282CDE58001DCF1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE0146B2282CDE58001DCF1D /* Assets.xcassets */; };
 		DE0146B6282CDE58001DCF1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0146B4282CDE58001DCF1D /* LaunchScreen.storyboard */; };
 		DE0146BE282CDEE6001DCF1D /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0146BD282CDEE6001DCF1D /* CoinData.swift */; };
 		DE0146C0282CE0E7001DCF1D /* CryptoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0146BF282CE0E7001DCF1D /* CryptoTableViewController.swift */; };
 		DE2CFE2228323D29002C278F /* CoinDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2CFE2128323D29002C278F /* CoinDataViewController.swift */; };
+		DE9CD4892833D1B2000D6FD3 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9CD4882833D1B2000D6FD3 /* AuthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +22,13 @@
 		C7691D10F7C9EB5232B4C71D /* Pods-Crypto Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crypto Tracker.debug.xcconfig"; path = "Target Support Files/Pods-Crypto Tracker/Pods-Crypto Tracker.debug.xcconfig"; sourceTree = "<group>"; };
 		DE0146A6282CDE55001DCF1D /* Crypto Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE0146A9282CDE55001DCF1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE0146AD282CDE55001DCF1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DE0146B2282CDE58001DCF1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE0146B5282CDE58001DCF1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE0146B7282CDE58001DCF1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE0146BD282CDEE6001DCF1D /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
 		DE0146BF282CE0E7001DCF1D /* CryptoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewController.swift; sourceTree = "<group>"; };
 		DE2CFE2128323D29002C278F /* CoinDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataViewController.swift; sourceTree = "<group>"; };
+		DE9CD4882833D1B2000D6FD3 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		F05A40783C33A45740DF6C65 /* Pods_Crypto_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Crypto_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -83,10 +83,10 @@
 			isa = PBXGroup;
 			children = (
 				DE0146A9282CDE55001DCF1D /* AppDelegate.swift */,
+				DE9CD4882833D1B2000D6FD3 /* AuthViewController.swift */,
 				DE0146BD282CDEE6001DCF1D /* CoinData.swift */,
 				DE0146BF282CE0E7001DCF1D /* CryptoTableViewController.swift */,
 				DE2CFE2128323D29002C278F /* CoinDataViewController.swift */,
-				DE0146AD282CDE55001DCF1D /* ViewController.swift */,
 				DE0146B2282CDE58001DCF1D /* Assets.xcassets */,
 				DE0146B4282CDE58001DCF1D /* LaunchScreen.storyboard */,
 				DE0146B7282CDE58001DCF1D /* Info.plist */,
@@ -210,8 +210,8 @@
 			files = (
 				DE2CFE2228323D29002C278F /* CoinDataViewController.swift in Sources */,
 				DE0146BE282CDEE6001DCF1D /* CoinData.swift in Sources */,
-				DE0146AE282CDE55001DCF1D /* ViewController.swift in Sources */,
 				DE0146C0282CE0E7001DCF1D /* CryptoTableViewController.swift in Sources */,
+				DE9CD4892833D1B2000D6FD3 /* AuthViewController.swift in Sources */,
 				DE0146AA282CDE55001DCF1D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
